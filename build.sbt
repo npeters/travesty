@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream"  % akkaVersion,
   "guru.nidi"         % "graphviz-java" % "0.2.2",
   //TODO: "com.github.mdr" %% "ascii-graphs" % "0.0.3", pending 2.12
-  "com.indvd00m.ascii.render" % "ascii-render"        % "1.2.1", //used instead of above^
+  "com.indvd00m.ascii.render" % "ascii-render"        % "1.2.4", //used instead of above^
   "org.scala-lang.modules"    %% "scala-java8-compat" % "0.8.0",
   "org.scala-lang"            % "scala-reflect"       % scalaVersion.value,
   "org.log4s"                 %% "log4s"              % "1.4.0",
